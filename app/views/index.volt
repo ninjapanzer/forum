@@ -60,6 +60,7 @@
 		{{ content() }}
 		<script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@2.2.4,bootstrap@3.3.7,prettify@0.1(prettify.js+lang-css.js+lang-sql.js+lang-yaml.js)"></script>
 		{{ javascript_include("js/editor.js?v=" ~ forum_version()) }}
+		{{ javascript_include("js/editorLocalStorageAdapter.js?v=" ~ forum_version()) }}
 		{{ javascript_include("js/forum.js?v=" ~ forum_version()) }}
 		{{ javascript_include("js/gs.js?v=" ~ forum_version()) }}
 
